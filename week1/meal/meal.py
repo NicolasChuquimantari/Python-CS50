@@ -10,3 +10,4 @@ elif 18 <= convert_time <= 19:
     print("dinner time")
 
 def convert(time):
+    h, m = time.split(":")
