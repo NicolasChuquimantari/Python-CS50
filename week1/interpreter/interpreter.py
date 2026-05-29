@@ -1,4 +1,4 @@
-expression = ("Enter arithmetic expression: ")
+expression = input("Enter arithmetic expression: ")
 
 x, y, z = expression.split(" ")
 x = float(x)
