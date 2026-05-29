@@ -11,3 +11,5 @@ elif 18 <= convert_time <= 19:
 
 def convert(time):
     h, m = time.split(":")
+    h = float(h)
+    m = float(m)
