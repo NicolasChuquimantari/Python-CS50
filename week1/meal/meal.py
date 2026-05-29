@@ -14,7 +14,7 @@ def convert(time):
     h = float(h)
     m = float(m)/60
     hour = h + m
-    return  float(hour)
+    return float(hour)
 
 if __name__ == "__main__":
     main()
