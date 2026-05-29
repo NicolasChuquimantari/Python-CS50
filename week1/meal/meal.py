@@ -9,4 +9,4 @@ elif 12 <= convert_time <= 13:
 elif 18 <= convert_time <= 19:
     print("dinner time")
 
-
+def convert(time):
