@@ -1,6 +1,6 @@
-expression = input("Enter arithmetic expression: ")
+expression = input("Enter arithmetic expression: ").split()
 
-x, y, z = expression.split(" ")
+x, y, z = expression
 x = float(x)
 z = float(z)
 
