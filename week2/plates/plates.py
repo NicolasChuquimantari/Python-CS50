@@ -16,6 +16,8 @@ def is_valid(s):
     return True
 
 
+def numbers(s):
+    number = False
 
 
 main()
