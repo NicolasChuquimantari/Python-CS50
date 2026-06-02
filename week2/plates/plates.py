@@ -11,6 +11,8 @@ def is_valid(s):
         return False
     if not s[0].isalpha() or not s[1].isalpha():
         return False
+    if not numbers(s):
+        return False
     return True
 
 
