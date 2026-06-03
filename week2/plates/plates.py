@@ -23,8 +23,9 @@ def numbers(s):
 
         if not char.isalpha() and not char.isdigit():
             return False
-        
+
         if char.isdigit():
+            
             number = True
 
         if char.isalpha():
