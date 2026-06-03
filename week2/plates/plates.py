@@ -25,8 +25,7 @@ def numbers(s):
             return False
 
         if char.isdigit():
-            if char == "0":
-               if number == False:
+            if char == "0" and not number:
                 return False
             number = True
 
