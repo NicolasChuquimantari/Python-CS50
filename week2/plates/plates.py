@@ -22,7 +22,9 @@ def numbers(s):
     for char in s:
         if char.isdigit():
             number = True
-
+        if char.isalpha():
+            if number:
+                return False
 
 
 main()
