@@ -20,9 +20,13 @@ def numbers(s):
     number = False
 
     for char in s:
+
+        if not char.isalpha() and not char.isdigit():
+            return False
+        
         if char.isdigit():
             number = True
-            
+
         if char.isalpha():
             if number:
                 return False
