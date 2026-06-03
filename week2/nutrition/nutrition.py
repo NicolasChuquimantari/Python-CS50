@@ -21,4 +21,6 @@ fruits_calories:{
     "watermelon": 80
 }
 
+fruit = input("Enter the name of the fruit: ").lower()
+
 
