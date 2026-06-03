@@ -26,5 +26,7 @@ def numbers(s):
             if number:
                 return False
 
+    return True
+
 
 main()
