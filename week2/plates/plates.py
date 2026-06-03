@@ -19,5 +19,10 @@ def is_valid(s):
 def numbers(s):
     number = False
 
+    for char in s:
+        if char.isdigit():
+            number = True
+
+
 
 main()
