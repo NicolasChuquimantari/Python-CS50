@@ -23,7 +23,8 @@ while True:
                 print(f"{year}-{month:02}-{day:02}")
         else:
             date_format = date.split(",")
-            
+             m,= date_format
+
 
 
 
