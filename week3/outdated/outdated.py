@@ -22,6 +22,7 @@ while True:
             if 1 <= month <= 12 and 1 <= day <= 31:
                 print(f"{year}-{month:02}-{day:02}")
         else:
+            date_format = date.split(",")
             
 
 
