@@ -21,8 +21,8 @@ fruits_calories = {
     "watermelon": 80
 }
 
-fruit = input("Enter the name of the fruit: ").lower()
+fruits = input("Enter the name of the fruit: ").lower()
 
-if fruit in fruits_calories:
-    print(f"Calories: {fruits_calories[fruit]}")
+if fruits in fruits_calories:
+    print(f"Calories: {fruits_calories[fruits]}")
 
