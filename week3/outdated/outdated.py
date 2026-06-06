@@ -16,4 +16,6 @@ month_list = [
 while True:
     try:
         date = input("Enter the date: ")
-        if len(date, /)
+        if len(date, /):
+        
+
