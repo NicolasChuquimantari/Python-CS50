@@ -1,4 +1,4 @@
-list = [
+month_list = [
     "January",
     "February",
     "March",
@@ -16,4 +16,4 @@ list = [
 while True:
     try:
         date = input("Enter the date: ")
-        if 
+        if
