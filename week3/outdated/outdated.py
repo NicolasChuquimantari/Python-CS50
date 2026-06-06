@@ -18,8 +18,9 @@ while True:
         date = input("Enter the date: ")
         if "/" in date:
             date_format = date.split("/")
-            month, day, year = date_format
-            if 
+            month, day, year = int(date_format)
+            if 1 <= month <= 12 and 1 <= day <= 31:
+                print(f")
 
 
 
