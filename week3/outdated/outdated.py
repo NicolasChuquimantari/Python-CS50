@@ -19,6 +19,7 @@ while True:
         if "/" in date:
             date_format = date.split("/")
             month, day, year = date_format
+            if 
 
 
 
