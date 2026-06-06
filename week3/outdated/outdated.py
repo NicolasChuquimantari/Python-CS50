@@ -16,6 +16,8 @@ month_list = [
 while True:
     try:
         date = input("Enter the date: ")
-        if len(date, /):
-        
+        if .:
+            date_format = date.split("/")
+            month, day, year = date_format
+
 
