@@ -12,15 +12,16 @@ if len(sys.argv) == 1:
 
 elif len(sys.argv) == 3:
     if sys.argv[1] not in ["-f", "--font"]:
+        sys.exit("Invalid usage")
         if sys.argv[2] not in fonts:
             sys.exit("Invalid usage")
-    fig.setFont(font=sys.argv[2])
+    fig.setFont(font=font)
 
 else:
     sys.exit("Invalid usage")
 
 text = input("Enter text: ")
-print(figlet.renderText(text))
+print(fig.renderText(text))
 
 
 
