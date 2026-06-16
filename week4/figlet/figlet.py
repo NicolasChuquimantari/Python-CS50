@@ -7,6 +7,7 @@ fonts = fig.getFonts()
 
 
 if len(sys.argv) == 1:
+    text = input("Enter text: ")
     font = random.choice(fonts)
     fig.setFont(font=font)
 
