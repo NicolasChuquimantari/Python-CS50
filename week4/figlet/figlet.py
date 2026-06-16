@@ -17,6 +17,10 @@ elif len(sys.argv) == 3:
             sys.exit("Invalid usage")
              fig.setFont(font=sys.argv[2])
 
+else sys.exit("Invalid usage")
+
+print(figlet.renderText(text))
+
 
 
 
