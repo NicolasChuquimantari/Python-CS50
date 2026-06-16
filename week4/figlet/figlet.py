@@ -12,7 +12,7 @@ if len(sys.argv) == 1:
 
 elif len(sys.argv) == 3:
     text = input("Enter text: ")
-    if 
+    if sys.argv[1] not in ["-f", "--font"]
 
 
 
