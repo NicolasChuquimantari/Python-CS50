@@ -13,7 +13,8 @@ if len(sys.argv) == 1:
 elif len(sys.argv) == 3:
     text = input("Enter text: ")
     if sys.argv[1] not in ["-f", "--font"]:
-        if sys.argv[2] not in fonts
+        if sys.argv[2] not in fonts:
+            sys.exit("Invalid usage")
 
 
 
