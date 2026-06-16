@@ -8,6 +8,6 @@ fonts = fig.getFonts()
 
 if len(sys.argv) == 1:
     font = random.choice(fonts)
-    
+    fig.setFont(font=font)
 
 
