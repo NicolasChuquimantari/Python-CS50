@@ -7,5 +7,6 @@ fonts = fig.getFonts()
 
 
 if len(sys.argv) == 1:
-    
+    random.choice(fonts)
+
 
