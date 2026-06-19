@@ -19,6 +19,7 @@ def main():
                     print("EEE")
                     if i == 2:
                         print(f"{x} + {y} = {x + y}")
+                        break
             except ValueError:
                 continue
 
