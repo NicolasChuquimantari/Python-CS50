@@ -17,13 +17,11 @@ def main():
                     break
                 elif answer != x + y:
                     print("EEE")
-
                     if i == 2:
                         print(f"{x} + {y} = {x + y}")
-
             except ValueError:
                 continue
-            
+
     print(f"Score: {score}")
 
 
