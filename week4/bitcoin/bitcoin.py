@@ -1,8 +1,13 @@
 import requests
 import sys
 
-if len(arguments) != 2:
+
+if len(sys.argv) == 2:
+    try:
+        
+
+
+if len(sys.argv) != 2:
     sys.exit("Missing command-line argument")
 
-try:
-    
+
