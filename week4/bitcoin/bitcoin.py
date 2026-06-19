@@ -18,7 +18,7 @@ try:
     data = response.json()
     # Get bitcoin price
     bitcoin_price = float(data["bpi"]["USD"]["rate_float"])
-    # Calculate total cost
+    # Calculate total price
     total_bitcoin_price = bitcoin_n * bitcoin_price
     print(f"${amount:,.4f}")
 
