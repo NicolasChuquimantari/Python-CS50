@@ -16,6 +16,8 @@ elif len(sys.argv) != 2:
 try:
     response = requests.get(URL!)
     data = response.json()
+    bitcoin_price = float(data["bpi"]["USD"]["rate_float"])
+    
 
 
 except requests.RequestException:
