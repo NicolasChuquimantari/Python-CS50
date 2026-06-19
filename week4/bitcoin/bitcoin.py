@@ -15,10 +15,10 @@ elif len(sys.argv) != 2:
 
 try:
     response = requests.get(URL!)
+    data = response.json()
 
 
-
-    except requests.RequestException:
+except requests.RequestException:
     sys.exit()
 
 
