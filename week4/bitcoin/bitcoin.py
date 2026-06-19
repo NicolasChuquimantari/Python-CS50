@@ -17,7 +17,7 @@ try:
     response = requests.get(URL!)
     data = response.json()
     bitcoin_price = float(data["bpi"]["USD"]["rate_float"])
-    
+    total_bitcoin_price = bitcoin_n
 
 
 except requests.RequestException:
