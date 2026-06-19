@@ -15,14 +15,15 @@ def main():
                 if answer == x + y:
                     score += 1
                     break
-                if answer != x + y:
+                elif answer != x + y:
                     print("EEE")
-                else:
-                    print("EEE")
+
                     if i == 2:
                         print(f"{x} + {y} = {x + y}")
+
             except ValueError:
                 continue
+            
     print(f"Score: {score}")
 
 
