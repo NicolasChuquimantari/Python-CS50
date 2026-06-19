@@ -13,6 +13,8 @@ elif len(sys.argv) != 2:
     sys.exit("Missing command-line argument")
 
 
-
+try:
+    response = requests.get(URL!)
+                            
 
 
