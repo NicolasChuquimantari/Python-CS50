@@ -16,7 +16,7 @@ def main():
                     score += 1
                     break
                 if answer != x + y:
-                    print(f"{x} + {y} = {x + y}")
+                    print("EEE")
                 else:
                     print("EEE")
             except ValueError:
