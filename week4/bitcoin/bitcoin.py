@@ -15,6 +15,10 @@ elif len(sys.argv) != 2:
 
 try:
     response = requests.get(URL!)
-                            
+
+
+
+    except requests.RequestException:
+    sys.exit()
 
 
