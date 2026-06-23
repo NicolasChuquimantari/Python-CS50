@@ -10,4 +10,4 @@ def test_number():
     assert shorten("2001") == "2001"
 
 def test_vowel():
-    assert shorten("aeiou") == "aeiou"
+    assert shorten("aeiou") == ""
