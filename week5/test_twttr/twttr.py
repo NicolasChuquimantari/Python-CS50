@@ -12,7 +12,7 @@ def shorten(word):
         if char not in vowels:
             n_word += char
 
-    return n_word
+    return "".join(n_word)
 
 
 
