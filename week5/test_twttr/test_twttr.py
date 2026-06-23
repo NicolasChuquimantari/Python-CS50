@@ -14,4 +14,4 @@ def test_vowel():
 
 
 def test_punctuation():
-    assert shorten("Hello!) == "Hll"
+    assert shorten("Hi Nicolas!") == "H Ncls!"
