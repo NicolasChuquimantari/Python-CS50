@@ -7,7 +7,8 @@ def main():
 
 def shorten(word):
     text = ""
-    for 
+    for l in word:
+        if l not in []
 
 
 
