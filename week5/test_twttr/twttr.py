@@ -6,6 +6,7 @@ def main():
 
 
 def shorten(word):
+    text
 
 
 
