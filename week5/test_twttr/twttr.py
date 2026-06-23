@@ -6,7 +6,7 @@ def main():
 
 
 def shorten(word):
-    text = ""
+    vowels = ("a","e","i","o","u")
     for l in word:
         if l not in []
 
