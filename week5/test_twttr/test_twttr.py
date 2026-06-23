@@ -11,3 +11,7 @@ def test_number():
 
 def test_vowel():
     assert shorten("aeiou") == ""
+
+
+def test_punctuation():
+    assert shorten("Hello!) == "Hll"
