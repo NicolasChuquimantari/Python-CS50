@@ -6,4 +6,8 @@ def test_capital():
 def test_lower():
     assert shorten("nicolas") == "ncls"
 
-def test_number()
+def test_number():
+    assert shorten("2001") == "2001"
+
+def test_vowel():
+    assert shorten("aeiou") == "aeiou"
