@@ -15,6 +15,5 @@ def shorten(word):
     return "".join(n_word)
 
 
-
 if __name__ == "__main__":
     main()
