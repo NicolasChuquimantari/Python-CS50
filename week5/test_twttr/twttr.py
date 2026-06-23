@@ -6,7 +6,8 @@ def main():
 
 
 def shorten(word):
-    text
+    text = ""
+    for 
 
 
 
