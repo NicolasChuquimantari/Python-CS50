@@ -1,6 +1,7 @@
 def main():
     text = input("Enter text: ")
-    output
+    output = shorten(word)
+    print(output)
 
 
 
