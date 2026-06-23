@@ -10,9 +10,9 @@ def shorten(word):
     n_word = []
     for char in word:
         if char not in vowels:
-            n_word.append(char)
+            n_word += char
 
-    return "".join(n_word)
+    return n_word
 
 
 
