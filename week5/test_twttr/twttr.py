@@ -1,5 +1,6 @@
 def main():
     text = input("Enter text: ")
+    output
 
 
 
