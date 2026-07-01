@@ -7,7 +7,10 @@ def value(greeting):
     greeting = greeting.strip().lower()
     if greeting.startswith("Hello"):
         return(0)
-    elif greeting.startswith("H")
+    elif greeting.startswith("H"):
+        return(20)
+    else:
+        return(100)
 
 
 
