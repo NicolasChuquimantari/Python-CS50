@@ -9,5 +9,6 @@ def test_h():
     assert value("HI") == 20
 
 def test_else():
-    assert value
+    assert value("What are you doing?") == 100
+    assert value("WHAT ARE YOU DOING?") == 100
 
