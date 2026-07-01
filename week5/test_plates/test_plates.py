@@ -7,11 +7,11 @@ def test_length():
 
 def test_starts_alpha():
     assert is_valid("Good") == True
-    assert is_valid("G1ood") == False
+    assert is_valid("H3llo") == False
 
 def test_alphanumeric():
-    assert is_valid("Python") == True
-    assert is_valid("Py.thon") == False
+    assert is_valid("Bye") == True
+    assert is_valid("Hi-men") == False
 
 
 def test_numbers():
