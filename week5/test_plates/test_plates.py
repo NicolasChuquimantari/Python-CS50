@@ -12,7 +12,6 @@ def test_alphanumeric():
     assert is_valid("Bye") == True
     assert is_valid("Hi-men") == False
 
-
 def test_numbers():
     assert is_valid("CS50P") == False
     assert is_valid("Bye10") == True
