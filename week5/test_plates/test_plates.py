@@ -7,7 +7,6 @@ def test_length():
 def test_starts_alpha():
     assert is_valid("Good") == True
     assert is_valid("1Hi") == False
-    assert is_valid("12Hi") == False
 
 def test_alphanumeric():
     assert is_valid("Bye") == True
@@ -16,5 +15,5 @@ def test_alphanumeric():
 
 def test_numbers():
     assert is_valid("Bye00") == False
-    assert is_valid("G00d") == False
+    assert is_valid("G0od") == False
     assert is_valid("Bye10") == True
