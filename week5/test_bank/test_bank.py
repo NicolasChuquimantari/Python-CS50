@@ -8,5 +8,6 @@ def test_h():
     assert value("Hi") == 20
     assert value("HI") == 20
 
-def test_else()
+def test_else():
+    assert value
 
