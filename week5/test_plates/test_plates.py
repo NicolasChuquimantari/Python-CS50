@@ -9,8 +9,8 @@ def test_starts_alpha():
     assert is_valid("Good") == True
     assert is_valid("G1ood") == False
 
-
+def test_
 
 def test_numbers():
-    assert is_valid("Harvard50") == True
-    assert is valid("Harv50ard") == False
+    assert is_valid("Goodbye00") == True
+    assert is valid("G00dbye") == False
