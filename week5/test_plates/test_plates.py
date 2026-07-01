@@ -5,4 +5,5 @@ def test_length():
     assert is_valid("H") == False
     assert is_valid("Hi") == True
 
-def test_
+def test_starts_alpha():
+    assert is_valid()
