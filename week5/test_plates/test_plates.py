@@ -10,10 +10,10 @@ def test_starts_alpha():
     assert is_valid("G1ood") == False
 
 def test_alphanumeric():
-    assert is_valid("HarvardPython") == True
-    assert is_valid("Harvard-Python") == False
+    assert is_valid("Python") == True
+    assert is_valid("Py.thon") == False
 
 
 def test_numbers():
-    assert is_valid("Goodbye00") == True
-    assert is valid("G00dbye") == False
+    assert is_valid("Bye00") == True
+    assert is_valid("G00dbye") == False
