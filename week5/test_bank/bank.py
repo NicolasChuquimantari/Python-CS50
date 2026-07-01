@@ -4,6 +4,8 @@ def main():
 
 
 def value(greeting):
+    greeting = greeting.strip().lower()
+    if greeting
 
 
 
