@@ -14,5 +14,5 @@ def test_alphanumeric():
     assert is_valid("Hi-men") == False
 
 def test_numbers():
-    assert is_valid("G0od") == False
-    assert is_valid("Hell0") == False
+    assert is_valid("Go0d") == False
+    assert is_valid("G00") == False
