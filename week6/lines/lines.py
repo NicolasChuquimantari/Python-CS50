@@ -12,7 +12,7 @@ try:
     with open(sys.argv[1]) as file:
         count_line = 0
         for line in file:
-            if not (line.lstrip().startswith("#") or line.lstrip()):
+            if line.strip() and not line.lstrip().startswith("#"):
                  count_line +=1
 
     print(count_line)
