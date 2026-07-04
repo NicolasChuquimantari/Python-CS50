@@ -12,7 +12,15 @@ try:
     with open(sys.argv[1]) as file:
         count_line = 0
         for line in file:
-            
+            if not (line.lstrip().startswith("#") or line.strip()):
+                 count_line +=1
+
+    print(count_line)
+
+except FileNotFoundError:
+        sys.exit("File does not exist")
+
+
 
 
 
