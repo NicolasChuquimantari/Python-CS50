@@ -10,8 +10,10 @@ elif len(sys.argv) > 2:
 
 try:
     with open(sys.argv[1]) as file:
+        count_line = 0
         for line in file:
             
+
 
 
 
