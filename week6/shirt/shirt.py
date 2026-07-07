@@ -12,6 +12,7 @@ if sys.argv[1].split(".")[1] != sys.argv[2].split(".")[1]:
 if not sys.argv[1].endswith((".jpg", ".jpeg", ".png")) or not sys.argv[2].endswith((".jpg", ".jpeg", ".png")):
         sys.exit("Invalid output")
 
-try
+try:
+     
 
 
