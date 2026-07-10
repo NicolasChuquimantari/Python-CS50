@@ -7,7 +7,8 @@ def main():
 
 
 def convert(s):
-    
+    if hour := re.search(r")
+
 
 
 if __name__ == "__main__":
