@@ -7,7 +7,7 @@ def main():
 
 
 def convert(s):
-    if hour := re.search(r")
+    if hour := re.search(r".+ AM to .+ PM")
 
 
 
