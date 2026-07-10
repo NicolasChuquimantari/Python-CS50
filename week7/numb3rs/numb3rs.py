@@ -10,6 +10,8 @@ def validate(ip):
     ipv4 = ip.split(".")
     if re.search(r"^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$", ip):
         for number in ipv4:
+            if number.starswith("0"):
+                return False
             if int(number)<0 or int(number)>255:
                 return False
 
