@@ -7,7 +7,7 @@ def main():
 
 
 def convert(s):
-    if hour := re.search(r"([0-9]{1,2})((:[0-9]{2})?) AM to ([0-9]{1,2})((:[0-9]{2})?) PM"):
+    if hour := re.search(r"([0-9]{1,2})((:[0-9]{2})?) AM to ([0-9]{1,2})((:[0-9]{2})?) PM", s):
 
 #split into groups
         hour1 = hour.group(1)
