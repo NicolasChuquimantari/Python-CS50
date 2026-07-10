@@ -19,9 +19,9 @@ def convert(s):
         timeday2 = hour.group(6)
 
 #validate time
-    if hour1 < 0 or hour1 > 12:
+    if int(hour1) < 0 or int(hour1) > 12:
         raise ValueError
-    if hour2 < 0 or hour2 > 12:
+    if int(hour2) < 0 or int(hour2) > 12:
         raise ValueError
 
     if min1 < 0 or min1 > 59:
