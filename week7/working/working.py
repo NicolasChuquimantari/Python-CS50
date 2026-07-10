@@ -16,7 +16,17 @@ def convert(s):
         hour2 = hour.group(3)
         min2 = hour.group(4)
 
-    if 
+#validate time
+    if hour1 < 0 or hour1 > 12:
+        raise ValueError
+    if hour2 < 0 or hour2 > 12:
+        raise ValueError
+
+    if min1 < 0 or min1 > 59:
+        raise ValueError
+    if min2 < 0 or min2 > 59:
+        raise ValueError
+
 
 
 
