@@ -13,6 +13,15 @@ if not sys.argv[1].endswith((".jpg", ".jpeg", ".png")) or not sys.argv[2].endswi
         sys.exit("Invalid output")
 
 try:
-     
+     shirt = Image.open("shirt.png")
+     picture = Image.open(sys.argv[1])
+     size = shirt.size
+     picture = ImageOps.fit(picture, size)
+     picture.paste(shirt, shirt)
+     picture.save(sys.argv[2])
+
+except FileNotFoundError:
+     sys.exit("input does not exist")
+
 
 
