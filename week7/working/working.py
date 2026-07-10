@@ -16,6 +16,8 @@ def convert(s):
         hour2 = hour.group(3)
         min2 = hour.group(4)
 
+    if 
+
 
 
 
