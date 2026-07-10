@@ -12,9 +12,11 @@ def convert(s):
 #split into groups
         hour1 = hour.group(1)
         min1 = hour.group(2)
+        timeday1 = hour.group(3)
 
-        hour2 = hour.group(3)
-        min2 = hour.group(4)
+        hour2 = hour.group(4)
+        min2 = hour.group(5)
+        timeday2 = hour.group(6)
 
 #validate time
     if hour1 < 0 or hour1 > 12:
